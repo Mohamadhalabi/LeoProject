@@ -1,7 +1,5 @@
- <img src="https://expertsys-group.com/images/logo-share.png" width="160"  alt="esg Logo">
 
 ## Website TLK | Laravel 9.0 
-
 
 ## requirements
 **1-php 8.0**
@@ -27,6 +25,12 @@ set configuration database
 
 ``php artisn migrate --seed``
 
+``php artisan migrate (after changing the database name in env)``
+``php artisan db:seed ``
+``php artisan db:seed --class=SettingSeed``
+``php artisan db:seed --class=AdminUser``
+``php artisan db:seed --class=LanguageSeed``
+
 ### 5-open the cmd and run
 
 ``php artion serve --port=8000``
@@ -42,25 +46,6 @@ go to  http://localhost:8000/admin
 
 **password is : password**
 
-if you want access to seller 
-
 go to  http://localhost:8000/
-
-
-**username is : seller@esg.com**
-
-**password is : password**
-
-------------------
-
- 
-### Development by Expert Systems Group
-2022 | [https://www.expertsys-group.com/](https://www.expertsys-group.com/)
-
-Phone: 00905525700100
- 
-E-mail: [info@expertsys-group.com](info@expertsys-group.com)
-
-
 
  
